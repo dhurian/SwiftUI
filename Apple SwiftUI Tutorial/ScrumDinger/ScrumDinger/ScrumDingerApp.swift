@@ -12,6 +12,7 @@ struct ScrumDingerApp: App {
     var body: some Scene {
         WindowGroup {
             MeetingView()
+           
         }
     }
 }
