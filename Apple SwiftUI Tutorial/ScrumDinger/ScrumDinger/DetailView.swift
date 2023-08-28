@@ -46,12 +46,12 @@ struct DetailView: View {
         .navigationTitle(scrum.title)
 
         
-        //.toolbar{
-         //   Button("Edit"){
-          //   isPresentingEditView = true
-          //  }
-        //}
-        /*.sheet(isPresented: $isPresentingEditView){
+        .toolbar{
+           Button("Edit"){
+           isPresentingEditView = true
+          }
+        }
+        .sheet(isPresented: $isPresentingEditView){
             NavigationStack{
                 DetailEditView()
                     .navigationTitle(scrum.title)
@@ -68,7 +68,7 @@ struct DetailView: View {
                         }
                     }
             }
-            }*/
+            }
         
     }
         

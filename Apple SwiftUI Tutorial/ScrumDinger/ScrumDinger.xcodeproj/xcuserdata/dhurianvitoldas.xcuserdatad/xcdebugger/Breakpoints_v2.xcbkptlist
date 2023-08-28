@@ -14,58 +14,10 @@
             filePath = "ScrumDinger/ScrumDingerApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "body"
             landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CED46AA2-EFAA-4D04-96C2-12ECF603BD02"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ScrumDinger/DetailView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "CED46AA2-EFAA-4D04-96C2-12ECF603BD02 - fd4cd75a57842ec9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ScrumDinger.DetailView.body.getter : some"
-                  moduleName = "ScrumDinger"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dhurianvitoldas/Documents/Development/SwiftUI/Apple%20SwiftUI%20Tutorial/ScrumDinger/ScrumDinger/DetailView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "46"
-                  endingLineNumber = "46"
-                  offsetFromSymbolStart = "504">
-               </Location>
-               <Location
-                  uuid = "CED46AA2-EFAA-4D04-96C2-12ECF603BD02 - fd4cd75a57842ec9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ScrumDinger.DetailView.body.getter : some"
-                  moduleName = "ScrumDinger"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dhurianvitoldas/Documents/Development/SwiftUI/Apple%20SwiftUI%20Tutorial/ScrumDinger/ScrumDinger/DetailView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "46"
-                  endingLineNumber = "46"
-                  offsetFromSymbolStart = "512">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

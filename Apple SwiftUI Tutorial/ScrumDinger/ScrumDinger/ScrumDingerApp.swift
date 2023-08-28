@@ -16,7 +16,9 @@ struct ScrumDingerApp: App {
             //MeetingView()
             //CardView(scrum: DailyScrum.sampleData[0])
             //DetailEditView()
-            DetailView(scrum:  scrum[0])
+            NavigationStack{
+                DetailView(scrum:  scrum[0])
+            }
         }
     }
 }
