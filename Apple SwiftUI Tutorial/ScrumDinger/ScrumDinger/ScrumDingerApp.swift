@@ -11,9 +11,12 @@ import SwiftUI
 struct ScrumDingerApp: App {
     var body: some Scene {
         WindowGroup {
-            ScrumsView(scrums: DailyScrum.sampleData)
+            let scrum = DailyScrum.sampleData
+            //ScrumsView(scrums: DailyScrum.sampleData)
             //MeetingView()
             //CardView(scrum: DailyScrum.sampleData[0])
+            //DetailEditView()
+            DetailView(scrum:  scrum[0])
         }
     }
 }
