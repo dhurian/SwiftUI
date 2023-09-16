@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		33FF4D212AAC4CF0002343FB /* ScrumDingerV2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FF4D202AAC4CF0002343FB /* ScrumDingerV2App.swift */; };
-		33FF4D232AAC4CF0002343FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FF4D222AAC4CF0002343FB /* ContentView.swift */; };
+		33FF4D232AAC4CF0002343FB /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FF4D222AAC4CF0002343FB /* MeetingView.swift */; };
 		33FF4D252AAC4CF1002343FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33FF4D242AAC4CF1002343FB /* Assets.xcassets */; };
 		33FF4D282AAC4CF1002343FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33FF4D272AAC4CF1002343FB /* Preview Assets.xcassets */; };
+		33FF4D312AAC912C002343FB /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FF4D302AAC912C002343FB /* Theme.swift */; };
+		33FF4D332AAC922A002343FB /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FF4D322AAC922A002343FB /* DailyScrum.swift */; };
+		33FF4D352AAC932C002343FB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FF4D342AAC932C002343FB /* CardView.swift */; };
+		33FF4D372AAC996A002343FB /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FF4D362AAC996A002343FB /* ScrumsView.swift */; };
+		33FF4D392AADCF42002343FB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FF4D382AADCF42002343FB /* DetailView.swift */; };
+		33FF4D3B2AADE0EE002343FB /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FF4D3A2AADE0EE002343FB /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		33FF4D1D2AAC4CF0002343FB /* ScrumDingerV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrumDingerV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33FF4D202AAC4CF0002343FB /* ScrumDingerV2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumDingerV2App.swift; sourceTree = "<group>"; };
-		33FF4D222AAC4CF0002343FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		33FF4D222AAC4CF0002343FB /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		33FF4D242AAC4CF1002343FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33FF4D272AAC4CF1002343FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33FF4D302AAC912C002343FB /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		33FF4D322AAC922A002343FB /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		33FF4D342AAC932C002343FB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		33FF4D362AAC996A002343FB /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		33FF4D382AADCF42002343FB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		33FF4D3A2AADE0EE002343FB /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,13 @@
 		33FF4D1F2AAC4CF0002343FB /* ScrumDingerV2 */ = {
 			isa = PBXGroup;
 			children = (
+				33FF4D2F2AAC9110002343FB /* Models */,
 				33FF4D202AAC4CF0002343FB /* ScrumDingerV2App.swift */,
-				33FF4D222AAC4CF0002343FB /* ContentView.swift */,
+				33FF4D222AAC4CF0002343FB /* MeetingView.swift */,
+				33FF4D342AAC932C002343FB /* CardView.swift */,
+				33FF4D362AAC996A002343FB /* ScrumsView.swift */,
+				33FF4D382AADCF42002343FB /* DetailView.swift */,
+				33FF4D3A2AADE0EE002343FB /* DetailEditView.swift */,
 				33FF4D242AAC4CF1002343FB /* Assets.xcassets */,
 				33FF4D262AAC4CF1002343FB /* Preview Content */,
 			);
@@ -65,6 +82,15 @@
 				33FF4D272AAC4CF1002343FB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		33FF4D2F2AAC9110002343FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				33FF4D302AAC912C002343FB /* Theme.swift */,
+				33FF4D322AAC922A002343FB /* DailyScrum.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33FF4D232AAC4CF0002343FB /* ContentView.swift in Sources */,
+				33FF4D332AAC922A002343FB /* DailyScrum.swift in Sources */,
+				33FF4D372AAC996A002343FB /* ScrumsView.swift in Sources */,
+				33FF4D312AAC912C002343FB /* Theme.swift in Sources */,
+				33FF4D3B2AADE0EE002343FB /* DetailEditView.swift in Sources */,
+				33FF4D392AADCF42002343FB /* DetailView.swift in Sources */,
+				33FF4D232AAC4CF0002343FB /* MeetingView.swift in Sources */,
 				33FF4D212AAC4CF0002343FB /* ScrumDingerV2App.swift in Sources */,
+				33FF4D352AAC932C002343FB /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +307,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +337,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
