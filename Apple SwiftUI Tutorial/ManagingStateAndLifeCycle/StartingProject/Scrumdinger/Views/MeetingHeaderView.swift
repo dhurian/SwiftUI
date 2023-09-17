@@ -16,15 +16,13 @@ struct MeetingHeaderView: View {
     }
     
     private var progress: Double {
-        if(secondsRemaining == 0){
-            return 1.0
-        } else{
-          return  Double(secondsElapsed)/Double(secondsRemaining)
+        guard totalSeconds > 0 else { return 1.0 }
+          return  Double(secondsElapsed) / Double(totalSeconds)
         }
-    }
+    
     
     private var minutesRemaining : Int {
-       Int(secondsRemaining/60)
+      secondsRemaining/60
     }
     
     var body: some View {
