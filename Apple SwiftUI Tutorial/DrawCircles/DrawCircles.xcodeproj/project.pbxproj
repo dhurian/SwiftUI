@@ -11,6 +11,7 @@
 		33AB0F6C2AC6A69200592BC7 /* CircleDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AB0F6B2AC6A69200592BC7 /* CircleDefinition.swift */; };
 		33AB0F6E2AC6AE6700592BC7 /* CreateLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AB0F6D2AC6AE6700592BC7 /* CreateLine.swift */; };
 		33AB0F702AC6B24700592BC7 /* LineDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AB0F6F2AC6B24700592BC7 /* LineDefinition.swift */; };
+		33AB0F722AC6F39A00592BC7 /* Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AB0F712AC6F39A00592BC7 /* Gestures.swift */; };
 		33DFD6602AC5CCBD006B8F20 /* DrawCirclesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DFD65F2AC5CCBD006B8F20 /* DrawCirclesApp.swift */; };
 		33DFD6622AC5CCBD006B8F20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DFD6612AC5CCBD006B8F20 /* ContentView.swift */; };
 		33DFD6642AC5CCBE006B8F20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33DFD6632AC5CCBE006B8F20 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		33AB0F6B2AC6A69200592BC7 /* CircleDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleDefinition.swift; sourceTree = "<group>"; };
 		33AB0F6D2AC6AE6700592BC7 /* CreateLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateLine.swift; sourceTree = "<group>"; };
 		33AB0F6F2AC6B24700592BC7 /* LineDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineDefinition.swift; sourceTree = "<group>"; };
+		33AB0F712AC6F39A00592BC7 /* Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gestures.swift; sourceTree = "<group>"; };
 		33DFD65C2AC5CCBD006B8F20 /* DrawCircles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawCircles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33DFD65F2AC5CCBD006B8F20 /* DrawCirclesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawCirclesApp.swift; sourceTree = "<group>"; };
 		33DFD6612AC5CCBD006B8F20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			children = (
 				33DFD65F2AC5CCBD006B8F20 /* DrawCirclesApp.swift */,
 				33DFD6612AC5CCBD006B8F20 /* ContentView.swift */,
+				33AB0F712AC6F39A00592BC7 /* Gestures.swift */,
 				33AB0F692AC6A54D00592BC7 /* CreateCircle.swift */,
 				33AB0F6D2AC6AE6700592BC7 /* CreateLine.swift */,
 				33AB0F6F2AC6B24700592BC7 /* LineDefinition.swift */,
@@ -154,6 +157,7 @@
 				33DFD6622AC5CCBD006B8F20 /* ContentView.swift in Sources */,
 				33DFD6602AC5CCBD006B8F20 /* DrawCirclesApp.swift in Sources */,
 				33AB0F6E2AC6AE6700592BC7 /* CreateLine.swift in Sources */,
+				33AB0F722AC6F39A00592BC7 /* Gestures.swift in Sources */,
 				33AB0F6A2AC6A54D00592BC7 /* CreateCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

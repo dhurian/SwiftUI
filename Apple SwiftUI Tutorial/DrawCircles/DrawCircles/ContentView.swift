@@ -15,7 +15,14 @@ struct ContentView: View {
         
         VStack {
             
-            CreateCircle(circleObject: $drawCircle)
+            //CreateCircle(circleObject: $drawCircle)
+            Rectangle()
+                .fill(.purple)
+                .onTapGesture(coordinateSpace: .local) { location in
+                    print(location.x)
+                    /*@State var Circles=CircleDefinition(id: UUID(), tickness: 2.0, opacityCircle: 1.0, frameWidth: 200, frameHeigth: 200, centerLocationX: CGFloat(location.x), centerLocationY: CGFloat(location.y))*/
+                }
+            
 
             
         }
