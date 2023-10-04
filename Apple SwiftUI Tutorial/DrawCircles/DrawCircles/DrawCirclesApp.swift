@@ -11,7 +11,7 @@ import SwiftUI
 struct DrawCirclesApp: App {
     var body: some Scene {
         WindowGroup {
-            CanvasTest()
+            LocatePosition()
         }
     }
 }
